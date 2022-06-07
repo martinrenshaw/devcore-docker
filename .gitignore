@@ -1,0 +1,9 @@
+*.cnf 
+*.pem
+**/db/inven*
+**/db/mysql*
+**/db/perf*
+**/db/ib*
+**/db/sys*
+
+
