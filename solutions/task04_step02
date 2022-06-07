@@ -1,0 +1,2 @@
+docker run --net appnet --ip 172.20.0.100 -itd app
+docker run --net appnet --ip 172.20.0.101 -itd app

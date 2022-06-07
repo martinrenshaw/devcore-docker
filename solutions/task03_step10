@@ -1,0 +1,11 @@
+from MySQLdb import connect
+
+def get_routers(): 
+    db = connect(host='172.20.0.200', db='inventory') 
+    c = db.cursor() 
+    c.execute("SELECT * FROM routers") 
+    return c.fetchall()
+
+    out += 'List of routers in the inventory:<br>' 
+    for r in get_routers(): 
+        out += f'-> Hostname: {r[0]}; IP: {r[1]}<br>'

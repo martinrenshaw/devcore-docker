@@ -1,0 +1,7 @@
+mysql
+CREATE DATABASE inventory;
+USE inventory;
+CREATE TABLE routers (hostname VARCHAR(255), ip VARCHAR(255));
+INSERT INTO routers VALUES ('r1.example.com', '192.168.1.1');
+INSERT INTO routers VALUES ('r2.example.com', '192.168.1.2');
+INSERT INTO routers VALUES ('r3.example.com', '192.168.1.3');

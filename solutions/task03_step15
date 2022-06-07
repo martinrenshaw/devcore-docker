@@ -1,0 +1,2 @@
+docker ps
+docker stop eee9856fec3b

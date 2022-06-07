@@ -1,0 +1,3 @@
+exit
+exit
+docker stop a388b34e496e

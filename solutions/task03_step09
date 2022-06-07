@@ -1,0 +1,5 @@
+docker exec -it eee9856fec3b bash
+mysql
+SELECT * FROM inventory.routers;
+exit
+exit
